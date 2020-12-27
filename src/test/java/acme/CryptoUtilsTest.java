@@ -15,8 +15,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-@DisplayName("App class tests")
-public class AppTest {
+@DisplayName("CryptoUtils class tests")
+public class CryptoUtilsTest {
     @Test
     public void shouldAnswerWithTrue() {
         assertTrue(true);
@@ -36,7 +36,7 @@ public class AppTest {
         @ParameterizedTest
         @MethodSource("data")
         void calculateMd5Hash(String password, String expected) throws NoSuchAlgorithmException {
-            assertEquals(expected, App.calculateMd5Hash(password));
+            assertEquals(expected, CryptoUtils.calculateMd5Hash(password));
         }
     }
 }
