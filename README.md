@@ -1,9 +1,9 @@
-# Pentaho PI custom step in Java
+# Pentaho BI custom step in Java
 
 ## Requirements
 
-* [JDK 8+](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [Apache Maven 3.6.0+](https://maven.apache.org/download.cgi)
+* [JDK 8+](http://www.oracle.com/technetwork/java/javase/downloads/index.html) (optional)
+* [Apache Maven 3.6.0+](https://maven.apache.org/download.cgi) (optional)
 * [Pentaho Data Integration 9.0+](https://www.hitachivantara.com/en-us/products/data-management-analytics/pentaho-platform.html)
 
 ## Running
